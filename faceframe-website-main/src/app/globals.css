@@ -1,0 +1,271 @@
+/* ===============================
+   Imports and CSS Variables
+   =============================== */
+   @import "tailwindcss";
+
+   :root {
+     --primary-blue: #5092D8;
+     --secondary-blue: #8DBBEB;
+     --dark: #2E2E3C;
+   }
+   @source inline('scale-y-0', 'scale-y-100', 'opacity-0', 'opacity-100', 'pointer-events-none');
+   
+   @theme {
+     --color-primary-blue: var(--primary-blue);
+     --color-secondary-blue: var(--secondary-blue);
+     --color-dark: var(--dark);
+     --text-header: 60px;
+     --text-secondary-header: 56px;
+     --animate-gradient-text: gradient-text 5s ease infinite;
+   
+     @keyframes gradient-btn {
+       0%, 100% {
+         background-position: 0% 50%;
+       }
+       50% {
+         background-position: 100% 50%;
+       }
+     }
+   
+     @keyframes gradient-text {
+       0%, 100% {
+         background-position: 0% 50%;
+       }
+       50% {
+         background-position: 100% 50%;
+       }
+     }
+   }
+   
+   /* ===============================
+      Base Styles
+      =============================== */
+   body, html {
+     margin: 0;
+     padding: 0;
+     scroll-behavior: smooth;
+     background: #FAFAFA;
+     color: var(--dark);
+     font-family: 'Inter', sans-serif;
+     overflow-x: hidden;
+   }
+   
+   /* ===============================
+      Utility Classes
+      =============================== */
+   .container {
+     @apply w-full max-w-[90rem] 2xl:max-w-[90%] mx-auto px-5 md:px-10 lg:px-24;
+   }
+   
+   .nav-item {
+     @apply text-xl md:text-lg text-gray-500 hover:text-primary-blue font-semibold mx-8 transition-colors duration-300 cursor-pointer;
+   }
+   
+   .footer-item {
+     @apply text-xl md:text-lg text-gray-500 hover:text-primary-blue font-semibold mx-8 mb-4 md:mb-0 transition-colors duration-300;
+   }
+   
+   .footer-nav-link {
+     position: relative;
+     text-decoration: none;
+     padding-bottom: 4px;
+   }
+   
+   .footer-nav-link::after {
+     content: "";
+     position: absolute;
+     width: 0;
+     height: 1px;
+     bottom: 0;
+     left: 50%;
+     background: linear-gradient(
+       90deg,
+       rgba(255, 255, 255, 0) 7%,
+       var(--primary-blue) 50%,
+       rgba(255, 255, 255, 0) 93%
+     );
+     transition: width 0.3s ease;
+     transform: translateX(-50%);
+   }
+   
+   .footer-nav-link:hover::after {
+     width: 100%;
+   }
+   
+   /* ===============================
+      Buttons
+      =============================== */
+   .primary-btn {
+     @apply cursor-pointer bg-primary-blue border border-gray-300 text-white text-lg h-[52px] md:w-auto px-8 md:px-12 rounded-[17px] font-semibold inline-flex items-center justify-center gap-2 transition-all duration-300;
+   }
+   
+   .primary-btn:hover {
+     @apply scale-105;
+     background-image: linear-gradient(60deg, #5092D8, #8DBBEB, #5092D8);
+     background-size: 200% 200%;
+     animation: gradient-btn 8s ease infinite;
+   }
+   
+   .secondary-btn {
+     @apply cursor-pointer bg-[#FAFAFA] border-[1.5px] border-black text-black h-[52px] md:w-auto px-8 md:px-12 rounded-[17px] font-semibold inline-flex items-center justify-center gap-2 hover:bg-gray-100 hover:scale-105 transition-all duration-300;
+   }
+   
+   /* ===============================
+      Animations & Effects
+      =============================== */
+   .animated {
+     will-change: transform, opacity;
+   }
+   
+   .features-gradient {
+     background: radial-gradient(
+       ellipse at bottom,
+       rgba(80, 146, 216, 0.183) 0%,
+       rgba(255, 255, 255, 0.9) 70%,
+       white 100%
+     );
+     background-size: 200% 100%;
+     background-position: left bottom;
+     animation: moveGradient 8s ease-in-out infinite alternate;
+   }
+   
+   @keyframes moveGradient {
+     0% {
+       background-position: left bottom;
+     }
+     100% {
+       background-position: right bottom;
+     }
+   }
+   
+   .about-gradient {
+     background: linear-gradient(to right, #8DBBEB 52%, #7CB0E6 78%, #5092D8 100%);
+   }
+   
+   /* ===============================
+      Glow Effects
+      =============================== */
+   .glow {
+     position: absolute;
+     border-radius: 50%;
+     filter: blur(100px);
+     pointer-events: none;
+     z-index: 0;
+   }
+   
+   .glow--1 {
+     width: 300px;
+     height: 300px;
+     top: -80px;
+     left: -60px;
+     background-color: rgba(96, 165, 250, 0.25); /* Tailwind's blue-400 */
+     animation: floatGlow 8s ease-in-out infinite;
+   }
+   
+   .glow--2 {
+     width: 250px;
+     height: 250px;
+     bottom: -60px;
+     right: -40px;
+     background-color: rgba(147, 197, 253, 0.25); /* Tailwind's blue-300 */
+     animation: driftGlow 16s ease-in-out infinite;
+   }
+   
+   /* ===============================
+      Reveal Animations (Global & Responsive)
+      =============================== */
+   .reveal,
+   .reveal-sm,
+   .reveal-lg {
+     opacity: 0;
+     transform: translateY(30px);
+     transition: opacity 0.5s ease, transform 0.75s ease;
+     transition-delay: 0.1s;
+     will-change: opacity, transform;
+   }
+   
+   .reveal.active,
+   .reveal-sm.active,
+   .reveal-lg.active {
+     opacity: 1;
+     transform: translateY(0);
+   }
+   
+   .reveal-btn {
+     opacity: 0;
+     transform: translateY(50px);
+     transition: opacity 0.7s ease, transform 0.7s ease;
+     will-change: opacity, transform;
+   }
+   
+   .reveal-btn.active {
+     opacity: 1;
+     transform: translateY(0);
+   }
+   
+   .reveal-forward {
+     opacity: 0;
+     transform: scale(0.75);
+     transition: opacity 1s ease, transform 1s ease;
+     will-change: opacity, transform;
+   }
+   
+   .reveal-forward.active {
+     opacity: 1;
+     transform: scale(1);
+   }
+   
+   .reveal-left {
+     opacity: 0;
+     transform: translateX(-50px);
+     transition: opacity 0.8s ease, transform 0.8s ease;
+     will-change: opacity, transform;
+   }
+   
+   .reveal-right {
+     opacity: 0;
+     transform: translateX(50px);
+     transition: opacity 0.8s ease, transform 0.8s ease;
+     will-change: opacity, transform;
+   }
+   
+   .reveal-left.active,
+   .reveal-right.active {
+     opacity: 1;
+     transform: translateX(0);
+   }
+   
+   /* Delay classes */
+   .delay-100  { transition-delay: 0.1s; }
+   .delay-200  { transition-delay: 0.2s; }
+   .delay-300  { transition-delay: 0.3s; }
+   .delay-400  { transition-delay: 0.4s; }
+   .delay-500  { transition-delay: 0.5s; }
+   .delay-600  { transition-delay: 0.6s; }
+   .delay-700  { transition-delay: 0.7s; }
+   .delay-800  { transition-delay: 0.8s; }
+   .delay-900  { transition-delay: 0.9s; }
+   .delay-1000 { transition-delay: 1s; }
+   
+   /* ===============================
+      Media Queries (md/lg and up)
+      =============================== */
+   @media (min-width: 1024px) {
+     .clip-about-shape {
+       clip-path: polygon(
+         0% 7.5%, 53% 7.5%, 53% 0, 85% 0%, 100% 0,
+         100% 15%, 100% 85%, 100% 100%, 85% 100%,
+         15% 100%, 0 100%, 0% 85%
+       );
+     }
+   }
+   
+   /* ===============================
+      Media Queries (sm and below)
+      =============================== */
+   @media (max-width: 639px) {
+     .delay-800  { transition-delay: 0.8s; }
+     .delay-900  { transition-delay: 0.9s; }
+     .delay-1000 { transition-delay: 1s; }
+   }
+   

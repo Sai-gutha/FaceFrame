@@ -1,0 +1,17 @@
+# cv2 comes from opencv-contrib-python, not opencv-python. mediapipe depends on
+# the contrib build, and both distributions install into the same cv2/ package
+# directory -- with both listed, whichever pip resolves last silently overwrites
+# the other. contrib is a superset, so nothing is lost by dropping the plain one.
+opencv-contrib-python
+# Pinned exactly: 0.10.30 removed the legacy mp.solutions API that src/main.py
+# used to depend on, and 1.0.0 is the version this migration was tested against.
+# A range would let a fresh install land somewhere untested.
+mediapipe==1.0.0
+joblib
+numpy
+pandas
+matplotlib
+scikit-learn
+PyQt5
+tensorflow
+seaborn
