@@ -1,0 +1,285 @@
+Backend/.env.example
+  s_be85f0606dd7e8::t_4015b97d71f692 1-3
+Backend/.gitignore
+  s_be85f0606dd7e8::t_28410325a6b70d 1-6
+Backend/README.md
+  s_be85f0606dd7e8::t_ce3e8d668d72c7 1-25
+Backend/app/__init__.py
+  s_be85f0606dd7e8::t_e1357558a8dbdb 1
+Backend/app/config.py
+  s_be85f0606dd7e8::t_066c57f23af99f 1-21
+Backend/app/database.py
+  s_be85f0606dd7e8::t_f43762402560de 1-114
+Backend/app/main.py
+  s_be85f0606dd7e8::t_b39a70b386d95e 1-223
+Backend/app/schemas.py
+  s_be85f0606dd7e8::t_da2edbd15044d8 1-27
+Backend/app/security.py
+  s_be85f0606dd7e8::t_595f2143f15320 1-39
+Backend/requirements.txt
+  s_be85f0606dd7e8::t_bddf6243204403 1-5
+Backend/tests/test_api.py
+  s_be85f0606dd7e8::t_a78d7eb2498924 1-53
+FaceFrame-main/.gitattributes
+  s_be85f0606dd7e8::t_2b8ba1a5f9e5b8 1-3
+FaceFrame-main/.gitignore
+  s_be85f0606dd7e8::t_59cbc4cdfc0924 1-168
+FaceFrame-main/README.md
+  s_be85f0606dd7e8::t_e72ee308c44cf0 1-110
+FaceFrame-main/docs/model_diagnostics.md
+  s_be85f0606dd7e8::t_ab3e2bca7ae7f7 1-66
+FaceFrame-main/notebooks/FaceFrame_CNN.ipynb
+  s_be85f0606dd7e8::t_180e869bfe4fc7 1-194
+FaceFrame-main/requirements.md
+  s_be85f0606dd7e8::t_969b8df3715184 1-54
+FaceFrame-main/requirements.txt
+  s_be85f0606dd7e8::t_a6a5672b17a731 1-17
+FaceFrame-main/src/face_mesh.py
+  s_be85f0606dd7e8::t_5e438307957cbf 1-261
+FaceFrame-main/src/login_screen.py
+  s_be85f0606dd7e8::t_efc31bd9ed0770 1-114
+FaceFrame-main/src/main.py
+  s_be85f0606dd7e8::t_f172f0d82bb6a4 1-414
+FaceFrame-main/src/model/cnn_train_faces.py
+  s_be85f0606dd7e8::t_34f777b1e495f6 1-170
+FaceFrame-main/src/model/old_train_model.py
+  s_be85f0606dd7e8::t_d85af61c48d027 1-24
+FaceFrame-main/src/old_main.py
+  s_be85f0606dd7e8::t_24d838022ebc64 1-369
+FaceFrame-main/src/old_math_based_main.py
+  s_be85f0606dd7e8::t_0462fc923812f6 1-81
+FaceFrame-main/src/ui_elements.py
+  s_be85f0606dd7e8::t_f5114209f578ea 1-100
+FaceFrame-main/tests/cnn_model_evaluator.py
+  s_be85f0606dd7e8::t_6dfb46afa6ee0c 1-74
+FaceFrame-main/tests/test_face_mesh.py
+  s_be85f0606dd7e8::t_366716dddd9a6f 1-236
+"FrontEnd and UX/.agents/skills/clerk-backend-api/SKILL.md"
+  s_be85f0606dd7e8::t_c0d31119ae17d7 1-426
+"FrontEnd and UX/.agents/skills/clerk-backend-api/evals/evals.json"
+  s_be85f0606dd7e8::t_74e7d20922def9 1-87
+"FrontEnd and UX/.agents/skills/clerk-backend-api/scripts/api-specs-context.sh"
+  s_be85f0606dd7e8::t_ceedfc25392432 1-30
+"FrontEnd and UX/.agents/skills/clerk-backend-api/scripts/execute-request.sh"
+  s_be85f0606dd7e8::t_017742d948923d 1-88
+"FrontEnd and UX/.agents/skills/clerk-backend-api/scripts/extract-endpoint-detail.sh"
+  s_be85f0606dd7e8::t_4e4e4ec8bd0a12 1-165
+"FrontEnd and UX/.agents/skills/clerk-backend-api/scripts/extract-tag-endpoints.sh"
+  s_be85f0606dd7e8::t_66c5ee3bd5de08 1-208
+"FrontEnd and UX/.agents/skills/clerk-backend-api/scripts/extract-tags.js"
+  s_be85f0606dd7e8::t_8502e16cdf4183 1-14
+"FrontEnd and UX/.agents/skills/clerk-custom-ui/SKILL.md"
+  s_be85f0606dd7e8::t_425dffb4fe4826 1-175
+"FrontEnd and UX/.agents/skills/clerk-custom-ui/core-2/custom-sign-in.md"
+  s_be85f0606dd7e8::t_1a046aad665e40 1-224
+"FrontEnd and UX/.agents/skills/clerk-custom-ui/core-2/custom-sign-up.md"
+  s_be85f0606dd7e8::t_69d0dc7f7cf61a 1-190
+"FrontEnd and UX/.agents/skills/clerk-custom-ui/core-3/custom-sign-in.md"
+  s_be85f0606dd7e8::t_3107d2cc19057d 1-314
+"FrontEnd and UX/.agents/skills/clerk-custom-ui/core-3/custom-sign-up.md"
+  s_be85f0606dd7e8::t_46d8a977578583 1-259
+"FrontEnd and UX/.agents/skills/clerk-custom-ui/core-3/show-component.md"
+  s_be85f0606dd7e8::t_5137c529ba5252 1-125
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/SKILL.md"
+  s_be85f0606dd7e8::t_4db525d0711dd5 1-252
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/evals/evals.json"
+  s_be85f0606dd7e8::t_4ce3ca0218729e 1-82
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/references/api-routes.md"
+  s_be85f0606dd7e8::t_940cf2c03a8f84 1-50
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/references/caching-auth.md"
+  s_be85f0606dd7e8::t_f6a41a5b90e3c0 1-56
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/references/middleware-strategies.md"
+  s_be85f0606dd7e8::t_ae4028d8677914 1-112
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/references/server-actions.md"
+  s_be85f0606dd7e8::t_51507a912f224f 1-56
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/references/server-vs-client.md"
+  s_be85f0606dd7e8::t_e8469b88d868cd 1-104
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/templates/nextjs-basic-auth/app/layout.tsx"
+  s_be85f0606dd7e8::t_e1eae6f4da2615 1-22
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/templates/nextjs-basic-auth/app/page.tsx"
+  s_be85f0606dd7e8::t_a1c31441e5a28f 1-3
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/templates/nextjs-basic-auth/package.json"
+  s_be85f0606dd7e8::t_366f34efad6068 1-16
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/templates/nextjs-basic-auth/proxy.ts"
+  s_be85f0606dd7e8::t_ec551a65945d16 1-10
+"FrontEnd and UX/.agents/skills/clerk-nextjs-patterns/templates/nextjs-basic-auth/tsconfig.json"
+  s_be85f0606dd7e8::t_2f5c85ee9097ff 1-23
+"FrontEnd and UX/.agents/skills/clerk-orgs/SKILL.md"
+  s_be85f0606dd7e8::t_0bfc6c1c7668d5 1-428
+"FrontEnd and UX/.agents/skills/clerk-orgs/evals/evals.json"
+  s_be85f0606dd7e8::t_0779ee4bff9622 1-126
+"FrontEnd and UX/.agents/skills/clerk-orgs/references/enterprise-sso.md"
+  s_be85f0606dd7e8::t_943d09d3cbcb90 1-110
+"FrontEnd and UX/.agents/skills/clerk-orgs/references/invitations.md"
+  s_be85f0606dd7e8::t_27868db822d3d3 1-149
+"FrontEnd and UX/.agents/skills/clerk-orgs/references/nextjs-patterns.md"
+  s_be85f0606dd7e8::t_9866765473394e 1-106
+"FrontEnd and UX/.agents/skills/clerk-orgs/references/roles-permissions.md"
+  s_be85f0606dd7e8::t_670a4dcb1cbebf 1-120
+"FrontEnd and UX/.agents/skills/clerk-setup/SKILL.md"
+  s_be85f0606dd7e8::t_f339069ad2af96 1-327
+"FrontEnd and UX/.agents/skills/clerk-setup/evals/evals.json"
+  s_be85f0606dd7e8::t_a5afade5a3cb68 1-74
+"FrontEnd and UX/.agents/skills/clerk-webhooks/SKILL.md"
+  s_be85f0606dd7e8::t_d19b3860e493fb 1-352
+"FrontEnd and UX/.agents/skills/clerk-webhooks/evals/evals.json"
+  s_be85f0606dd7e8::t_420d245565cb3d 1-61
+"FrontEnd and UX/.agents/skills/clerk-webhooks/references/frameworks.md"
+  s_be85f0606dd7e8::t_43aae8ff9a689c 1-216
+"FrontEnd and UX/.gitignore"
+  s_be85f0606dd7e8::t_7ca4824ddf2115 1-43
+"FrontEnd and UX/.openai/hosting.json"
+  s_be85f0606dd7e8::t_c5467ebcc62515 1-5
+"FrontEnd and UX/README.md"
+  s_be85f0606dd7e8::t_6f4371c5750b4b 1-100
+"FrontEnd and UX/app/api/profile/route.ts"
+  s_be85f0606dd7e8::t_8db8a0a7c93993 1-9
+"FrontEnd and UX/app/cart/cart.css"
+  s_be85f0606dd7e8::t_6be186f5a47efe 1
+"FrontEnd and UX/app/cart/layout.tsx"
+  s_be85f0606dd7e8::t_1e812576fb99a9 1-3
+"FrontEnd and UX/app/cart/page.tsx"
+  s_be85f0606dd7e8::t_91bd6af4681678 1-51
+"FrontEnd and UX/app/chatgpt-auth.ts"
+  s_be85f0606dd7e8::t_58027c022ff92f 1-90
+"FrontEnd and UX/app/dashboard/dashboard.css"
+  s_be85f0606dd7e8::t_7d024207f004c7 1-146
+"FrontEnd and UX/app/dashboard/layout.tsx"
+  s_be85f0606dd7e8::t_a8a5155b0fcd4f 1-5
+"FrontEnd and UX/app/dashboard/page.tsx"
+  s_be85f0606dd7e8::t_10715b9a752b0d 1-225
+"FrontEnd and UX/app/globals.css"
+  s_be85f0606dd7e8::t_487076b5b199de 1-1034
+"FrontEnd and UX/app/layout.tsx"
+  s_be85f0606dd7e8::t_dda328e3045e38 1-38
+"FrontEnd and UX/app/page.tsx"
+  s_be85f0606dd7e8::t_6926c7b07587fb 1-189
+"FrontEnd and UX/app/sign-in/[[...sign-in]]/page.tsx"
+  s_be85f0606dd7e8::t_b8ce486d9928b8 1-66
+"FrontEnd and UX/app/sign-up/[[...sign-up]]/page.tsx"
+  s_be85f0606dd7e8::t_ea362d085b61ec 1-82
+"FrontEnd and UX/drizzle.config.ts"
+  s_be85f0606dd7e8::t_a9b3804e2962fa 1-7
+"FrontEnd and UX/drizzle/meta/_journal.json"
+  s_be85f0606dd7e8::t_321b36bfd09f87 1-5
+"FrontEnd and UX/eslint.config.mjs"
+  s_be85f0606dd7e8::t_d947873ac2a4e7 1-41
+"FrontEnd and UX/examples/d1/app/api/notes/route.ts"
+  s_be85f0606dd7e8::t_b8921d6d7485f0 1-58
+"FrontEnd and UX/examples/d1/db/schema.ts"
+  s_be85f0606dd7e8::t_af4e5cf866aa6f 1-9
+"FrontEnd and UX/next-env.d.ts"
+  s_be85f0606dd7e8::t_b241650749fd01 1-6
+"FrontEnd and UX/next.config.ts"
+  s_be85f0606dd7e8::t_2ecc7e4e58ce65 1-7
+"FrontEnd and UX/package-lock.json"
+  s_be85f0606dd7e8::t_144db2996b4132 1-10625
+"FrontEnd and UX/package.json"
+  s_be85f0606dd7e8::t_ec428b04423890 1-50
+"FrontEnd and UX/postcss.config.mjs"
+  s_be85f0606dd7e8::t_d827c1e860062b 1-7
+"FrontEnd and UX/proxy.ts"
+  s_be85f0606dd7e8::t_c6d186af327630 1-7
+"FrontEnd and UX/public/favicon.svg"
+  s_be85f0606dd7e8::t_9678b3605db876 1-6
+"FrontEnd and UX/public/file.svg"
+  s_be85f0606dd7e8::t_60b9db2f1abe34 1
+"FrontEnd and UX/public/globe.svg"
+  s_be85f0606dd7e8::t_236cb7bd8bbcea 1
+"FrontEnd and UX/public/window.svg"
+  s_be85f0606dd7e8::t_e40cafc89e907c 1
+"FrontEnd and UX/skills-lock.json"
+  s_be85f0606dd7e8::t_1054682bc2d80a 1-41
+"FrontEnd and UX/tests/rendered-html.test.mjs"
+  s_be85f0606dd7e8::t_c1e1874e4aed46 1-91
+"FrontEnd and UX/tsconfig.json"
+  s_be85f0606dd7e8::t_137f38f36ea8e8 1-45
+"FrontEnd and UX/types/cloudflare-workers.d.ts"
+  s_be85f0606dd7e8::t_2adf0725b13743 1-3
+"FrontEnd and UX/vite.config.ts"
+  s_be85f0606dd7e8::t_96b781d95b4695 1-59
+faceframe-website-main/.gitignore
+  s_be85f0606dd7e8::t_407484da7b11c9 1-41
+faceframe-website-main/.prettierrc
+  s_be85f0606dd7e8::t_5cbe466957a796 1-12
+faceframe-website-main/.vscode/settings.json
+  s_be85f0606dd7e8::t_ffb9b933b68ebf 1-4
+faceframe-website-main/README.md
+  s_be85f0606dd7e8::t_6eb01dc77bec9c 1-76
+faceframe-website-main/eslint.config.mjs
+  s_be85f0606dd7e8::t_320c7202b22f0d 1-14
+faceframe-website-main/jsconfig.json
+  s_be85f0606dd7e8::t_b2c5f00c1922db 1-7
+faceframe-website-main/next.config.mjs
+  s_be85f0606dd7e8::t_8203f1129c0a1d 1-4
+faceframe-website-main/package-lock.json
+  s_be85f0606dd7e8::t_906b8651b68008 1-6267
+faceframe-website-main/package.json
+  s_be85f0606dd7e8::t_7850ee58589d4d 1-29
+faceframe-website-main/postcss.config.mjs
+  s_be85f0606dd7e8::t_a750fa612da873 1-5
+faceframe-website-main/public/01.svg
+  s_be85f0606dd7e8::t_dec47a85625cd1 1-3
+faceframe-website-main/public/file.svg
+  s_be85f0606dd7e8::t_20f8db6d51a56c 1
+faceframe-website-main/public/globe.svg
+  s_be85f0606dd7e8::t_a51750ed14d3ab 1
+faceframe-website-main/public/logo.svg
+  s_be85f0606dd7e8::t_bb236ac6277936 1-10
+faceframe-website-main/public/next.svg
+  s_be85f0606dd7e8::t_1530c09a43ad99 1
+faceframe-website-main/public/vercel.svg
+  s_be85f0606dd7e8::t_06e1eef9301252 1
+faceframe-website-main/public/window.svg
+  s_be85f0606dd7e8::t_c14858b54724ba 1
+faceframe-website-main/src/app/globals.css
+  s_be85f0606dd7e8::t_5ffc6581dcc60f 1-271
+faceframe-website-main/src/app/layout.jsx
+  s_be85f0606dd7e8::t_4cf9c88f473b79 1-31
+faceframe-website-main/src/app/page.jsx
+  s_be85f0606dd7e8::t_bfe3ec10946154 1-23
+faceframe-website-main/src/components/Button.jsx
+  s_be85f0606dd7e8::t_3c42916411ba6a 1-9
+faceframe-website-main/src/components/Card.jsx
+  s_be85f0606dd7e8::t_9c06f0b9374237 1-17
+faceframe-website-main/src/components/FeatureList.jsx
+  s_be85f0606dd7e8::t_052c231e0b7419 1-72
+faceframe-website-main/src/components/Footer.jsx
+  s_be85f0606dd7e8::t_d7a5afe34080e1 1-101
+faceframe-website-main/src/components/Nav.jsx
+  s_be85f0606dd7e8::t_895ce9a3f74825 1-120
+faceframe-website-main/src/components/ScrollButton.jsx
+  s_be85f0606dd7e8::t_14771dd82b1d5e 1-21
+faceframe-website-main/src/components/ScrollObserver.jsx
+  s_be85f0606dd7e8::t_06d8ac3600d940 1-34
+faceframe-website-main/src/sections/About.jsx
+  s_be85f0606dd7e8::t_24635d394edf43 1-86
+faceframe-website-main/src/sections/Contact.jsx
+  s_be85f0606dd7e8::t_a3635e98da18a7 1-44
+faceframe-website-main/src/sections/Features.jsx
+  s_be85f0606dd7e8::t_76cee718caac50 1-48
+faceframe-website-main/src/sections/Hero.jsx
+  s_be85f0606dd7e8::t_b47c7f5b14212a 1-62
+faceframe-website-main/src/sections/HowItWorks.jsx
+  s_be85f0606dd7e8::t_3199d17df20162 1-128
+faceframe-website-main/src/utils/animations.js
+  s_be85f0606dd7e8::t_947d596e14d89a 1-21
+faceframe-website-main/tsconfig.json
+  s_be85f0606dd7e8::t_36251267b6b8fa 1-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "254c043b94735e8ae5dd3a5fe653f046b17648c9",
+  "prompts": {},
+  "sessions": {
+    "s_be85f0606dd7e8": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "5d51b7c3-c093-415a-b603-d2bf8ea13ab1",
+        "model": "unknown"
+      },
+      "human_author": "Sai Karthik Gutha <saikarthikgutha@Guthas-MacBook-Air.local>"
+    }
+  }
+}
